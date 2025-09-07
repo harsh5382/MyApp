@@ -4,6 +4,7 @@ import { useRouter } from "expo-router";
 import React, { useState } from "react";
 import {
   Alert,
+  SafeAreaView,
   ScrollView,
   StyleSheet,
   TextInput,
@@ -14,6 +15,7 @@ import {
 import { ThemedText } from "@/components/ThemedText";
 import { FamilyMember } from "@/types/family";
 import { familyMembers, findRelationship } from "@/utils/familyUtils";
+import { globalStyles } from "../styles/globalStyles";
 
 export default function RelationsScreen() {
   const router = useRouter();
@@ -105,28 +107,45 @@ export default function RelationsScreen() {
   };
 
   return (
-    <View style={styles.container}>
-      <LinearGradient colors={["#121212", "#000000"]} style={styles.header}>
+    <SafeAreaView style={globalStyles.container}>
+      <LinearGradient
+        colors={["#121212", "#000000"]}
+        style={globalStyles.header}
+      >
         <TouchableOpacity
-          style={styles.backButton}
+          style={globalStyles.backButton}
           onPress={() => router.back()}
         >
           <Ionicons name="arrow-back" size={24} color="#FFFFFF" />
         </TouchableOpacity>
-        <ThemedText style={styles.headerTitle}>Relations Finder</ThemedText>
-        <View style={styles.placeholder} />
+        <View style={globalStyles.headerContent}>
+          <View style={globalStyles.iconWrapper}>
+            <Ionicons name="people" size={28} color="#0095f6" />
+          </View>
+          <ThemedText style={globalStyles.headerTitle}>
+            Relations Finder
+          </ThemedText>
+          <ThemedText style={globalStyles.headerSubtitle}>
+            Find how people are related
+          </ThemedText>
+        </View>
+        <View style={globalStyles.placeholder} />
       </LinearGradient>
 
-      <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
+      <ScrollView
+        style={globalStyles.content}
+        contentContainerStyle={globalStyles.contentContainer}
+        showsVerticalScrollIndicator={false}
+      >
         <LinearGradient
           colors={["#262626", "#121212"]}
-          style={styles.searchContainer}
+          style={styles.sectionContainer}
         >
           <ThemedText style={styles.sectionTitle}>Select Two People</ThemedText>
 
           {/* Person 1 Search */}
           <View style={styles.searchSection}>
-            <ThemedText style={styles.searchLabel}>Person 1:</ThemedText>
+            <ThemedText style={styles.searchLabel}>Person 1</ThemedText>
             <View style={styles.searchInputContainer}>
               <Ionicons
                 name="person"
@@ -140,6 +159,7 @@ export default function RelationsScreen() {
                 placeholderTextColor="#B0B0B0"
                 value={person1}
                 onChangeText={handlePerson1Search}
+                autoCapitalize="none"
               />
             </View>
             {searchResults1.length > 0 && (
@@ -159,7 +179,8 @@ export default function RelationsScreen() {
                         {member.name}
                       </ThemedText>
                       <ThemedText style={styles.resultInfo}>
-                        Father: {member.father} • Mother: {member.mother}
+                        Father: {member.father || "Unknown"} • Mother:{" "}
+                        {member.mother || "Unknown"}
                       </ThemedText>
                     </LinearGradient>
                   </TouchableOpacity>
@@ -170,7 +191,7 @@ export default function RelationsScreen() {
 
           {/* Person 2 Search */}
           <View style={styles.searchSection}>
-            <ThemedText style={styles.searchLabel}>Person 2:</ThemedText>
+            <ThemedText style={styles.searchLabel}>Person 2</ThemedText>
             <View style={styles.searchInputContainer}>
               <Ionicons
                 name="person"
@@ -184,6 +205,7 @@ export default function RelationsScreen() {
                 placeholderTextColor="#B0B0B0"
                 value={person2}
                 onChangeText={handlePerson2Search}
+                autoCapitalize="none"
               />
             </View>
             {searchResults2.length > 0 && (
@@ -203,7 +225,8 @@ export default function RelationsScreen() {
                         {member.name}
                       </ThemedText>
                       <ThemedText style={styles.resultInfo}>
-                        Father: {member.father} • Mother: {member.mother}
+                        Father: {member.father || "Unknown"} • Mother:{" "}
+                        {member.mother || "Unknown"}
                       </ThemedText>
                     </LinearGradient>
                   </TouchableOpacity>
@@ -215,78 +238,44 @@ export default function RelationsScreen() {
           {/* Action Buttons */}
           <View style={styles.buttonContainer}>
             <TouchableOpacity
-              style={[styles.button, styles.findButton]}
+              style={[globalStyles.actionButton, styles.buttonSpacing]}
               onPress={findRelation}
               activeOpacity={0.8}
             >
               <LinearGradient
                 colors={["#0095f6", "#007bb5"]}
-                style={styles.buttonGradient}
+                style={globalStyles.buttonGradient}
               >
                 <Ionicons name="search" size={24} color="#FFFFFF" />
-                <ThemedText style={styles.buttonText}>
+                <ThemedText style={globalStyles.buttonText}>
                   Find Relationship
                 </ThemedText>
               </LinearGradient>
             </TouchableOpacity>
 
             <TouchableOpacity
-              style={[styles.button, styles.clearButton]}
+              style={globalStyles.actionButton}
               onPress={clearSearch}
               activeOpacity={0.8}
             >
               <LinearGradient
-                colors={["#262626", "#121212"]}
-                style={styles.buttonGradient}
+                colors={["#0095f6", "#007bb5"]}
+                style={globalStyles.buttonGradient}
               >
                 <Ionicons name="refresh" size={24} color="#FFFFFF" />
-                <ThemedText style={[styles.buttonText, styles.clearButtonText]}>
-                  Clear
-                </ThemedText>
+                <ThemedText style={globalStyles.buttonText}>Clear</ThemedText>
               </LinearGradient>
             </TouchableOpacity>
           </View>
         </LinearGradient>
 
-        {/* Relationship Result */}
-        {relationship && (
-          <LinearGradient
-            colors={["#262626", "#121212"]}
-            style={styles.resultContainer}
-          >
-            <ThemedText style={styles.resultTitle}>
-              Relationship Found
-            </ThemedText>
-            <LinearGradient
-              colors={["#262626", "#121212"]}
-              style={styles.relationshipCard}
-            >
-              <ThemedText style={styles.relationshipText}>
-                {relationship.relationship}
-              </ThemedText>
-              {relationship.path.length > 0 && (
-                <View style={styles.pathContainer}>
-                  <ThemedText style={styles.pathTitle}>
-                    Connection Path:
-                  </ThemedText>
-                  <ThemedText style={styles.pathText}>
-                    {relationship.path.join(" → ")}
-                  </ThemedText>
-                </View>
-              )}
-            </LinearGradient>
-          </LinearGradient>
-        )}
-
         {/* Selected People Display */}
         {(selectedPerson1 || selectedPerson2) && (
           <LinearGradient
             colors={["#262626", "#121212"]}
-            style={styles.selectedContainer}
+            style={styles.sectionContainer}
           >
-            <ThemedText style={styles.selectedTitle}>
-              Selected People
-            </ThemedText>
+            <ThemedText style={styles.sectionTitle}>Selected People</ThemedText>
             {selectedPerson1 && (
               <TouchableOpacity
                 style={styles.selectedPerson}
@@ -323,63 +312,62 @@ export default function RelationsScreen() {
             )}
           </LinearGradient>
         )}
+
+        {/* Relationship Result */}
+        {relationship && (
+          <LinearGradient
+            colors={["#262626", "#121212"]}
+            style={styles.sectionContainer}
+          >
+            <ThemedText style={styles.sectionTitle}>
+              Relationship Found
+            </ThemedText>
+            <LinearGradient
+              colors={["#262626", "#121212"]}
+              style={styles.relationshipCard}
+            >
+              <ThemedText style={styles.relationshipText}>
+                {relationship.relationship}
+              </ThemedText>
+              {relationship.path.length > 0 && (
+                <View style={styles.pathContainer}>
+                  <ThemedText style={styles.pathTitle}>
+                    Connection Path:
+                  </ThemedText>
+                  <ThemedText style={styles.pathText}>
+                    {relationship.path.join(" → ")}
+                  </ThemedText>
+                </View>
+              )}
+            </LinearGradient>
+          </LinearGradient>
+        )}
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#121212",
-  },
-  header: {
-    flexDirection: "row",
-    alignItems: "center",
-    paddingHorizontal: 16,
-    paddingVertical: 16,
-    paddingTop: 50,
-  },
-  backButton: {
-    padding: 8,
-    borderRadius: 20,
-    backgroundColor: "#262626",
-  },
-  headerTitle: {
-    flex: 1,
-    textAlign: "center",
-    marginHorizontal: 16,
-    fontSize: 20,
-    fontWeight: "600",
-    color: "#FFFFFF",
-  },
-  placeholder: {
-    width: 40,
-  },
-  content: {
-    flex: 1,
-    padding: 16,
-  },
-  searchContainer: {
+  sectionContainer: {
     borderRadius: 12,
     padding: 16,
     marginBottom: 16,
   },
   sectionTitle: {
-    marginBottom: 16,
-    textAlign: "center",
     fontSize: 18,
     fontWeight: "600",
     color: "#FFFFFF",
+    textAlign: "center",
+    marginBottom: 16,
   },
   searchSection: {
-    marginBottom: 16,
+    marginBottom: 24,
   },
   searchLabel: {
     fontSize: 16,
     fontWeight: "600",
-    marginBottom: 8,
     color: "#FFFFFF",
+    marginBottom: 8,
   },
   searchInputContainer: {
     flexDirection: "row",
@@ -399,13 +387,17 @@ const styles = StyleSheet.create({
   },
   resultsList: {
     marginTop: 8,
-    backgroundColor: "#262626",
     borderRadius: 8,
+    backgroundColor: "#262626",
   },
   resultItem: {
-    padding: 8,
+    padding: 12,
     borderBottomWidth: 1,
     borderBottomColor: "#333333",
+  },
+  resultGradient: {
+    borderRadius: 8,
+    padding: 12,
   },
   resultName: {
     fontSize: 16,
@@ -418,75 +410,12 @@ const styles = StyleSheet.create({
     color: "#B0B0B0",
   },
   buttonContainer: {
-    flexDirection: "row",
-    justifyContent: "space-between",
+    flexDirection: "column",
+    alignItems: "center",
     marginTop: 16,
-    paddingHorizontal: 8,
   },
-  button: {
-    flex: 0.48,
-    borderRadius: 8,
-  },
-  findButton: {
-    backgroundColor: "#0095f6",
-  },
-  clearButton: {
-    backgroundColor: "#262626",
-  },
-  buttonText: {
-    color: "#FFFFFF",
-    fontWeight: "600",
-    marginLeft: 8,
-    fontSize: 16,
-  },
-  clearButtonText: {
-    color: "#FFFFFF",
-  },
-  resultContainer: {
-    borderRadius: 12,
-    padding: 16,
-    marginBottom: 16,
-  },
-  resultTitle: {
+  buttonSpacing: {
     marginBottom: 12,
-    fontSize: 18,
-    fontWeight: "600",
-    color: "#FFFFFF",
-  },
-  relationshipCard: {
-    borderRadius: 8,
-    padding: 12,
-  },
-  relationshipText: {
-    fontSize: 18,
-    fontWeight: "600",
-    textAlign: "center",
-    marginBottom: 12,
-    color: "#FFFFFF",
-  },
-  pathContainer: {
-    marginTop: 8,
-  },
-  pathTitle: {
-    fontSize: 14,
-    fontWeight: "600",
-    marginBottom: 4,
-    color: "#FFFFFF",
-  },
-  pathText: {
-    fontSize: 12,
-    color: "#B0B0B0",
-  },
-  selectedContainer: {
-    borderRadius: 12,
-    padding: 16,
-    marginBottom: 16,
-  },
-  selectedTitle: {
-    marginBottom: 12,
-    fontSize: 18,
-    fontWeight: "600",
-    color: "#FFFFFF",
   },
   selectedPerson: {
     marginBottom: 8,
@@ -497,22 +426,34 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     color: "#FFFFFF",
   },
-  resultGradient: {
-    borderRadius: 8,
-    padding: 12,
-  },
-  buttonGradient: {
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
-    paddingVertical: 12,
-    paddingHorizontal: 16,
-    borderRadius: 8,
-  },
   selectedPersonGradient: {
     borderRadius: 8,
     padding: 12,
     flexDirection: "row",
     alignItems: "center",
+  },
+  relationshipCard: {
+    borderRadius: 8,
+    padding: 16,
+  },
+  relationshipText: {
+    fontSize: 18,
+    fontWeight: "600",
+    textAlign: "center",
+    color: "#FFFFFF",
+    marginBottom: 12,
+  },
+  pathContainer: {
+    marginTop: 8,
+  },
+  pathTitle: {
+    fontSize: 14,
+    fontWeight: "600",
+    color: "#FFFFFF",
+    marginBottom: 4,
+  },
+  pathText: {
+    fontSize: 12,
+    color: "#B0B0B0",
   },
 });

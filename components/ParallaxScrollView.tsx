@@ -13,7 +13,11 @@ export default function ParallaxScrollView({
   headerBackgroundColor,
   ...otherProps
 }: ParallaxScrollViewProps) {
-  const backgroundColor = useThemeColor(headerBackgroundColor, 'background');
+const backgroundColor = useThemeColor(
+  headerBackgroundColor ?? {},
+  "background"
+);
+
 
   return (
     <ScrollView

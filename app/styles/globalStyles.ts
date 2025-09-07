@@ -142,4 +142,24 @@ export const globalStyles = StyleSheet.create({
     textAlign: "center",
     color: "#FFFFFF",
   },
+  actionButton: {
+    flex: 1,
+    borderRadius: 8,
+    marginHorizontal: 8,
+  },
+  buttonGradient: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    minWidth: 140, // Ensure consistent button width
+  },
+  buttonText: {
+    fontSize: 16,
+    fontWeight: "600",
+    color: "#FFFFFF",
+    marginLeft: 8,
+  },
 });
