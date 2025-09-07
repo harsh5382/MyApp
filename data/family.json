@@ -1,0 +1,2313 @@
+[
+    {
+        "name": "Harsh Baldevbhai",
+        "father": "Baldev Bhai",
+        "mother": "Isha Ben",
+        "wife": "Bhoomi Ben",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Kontiya",
+            "sakh": "Aal",
+            "extra": "Gaful Gova"
+        },
+        "sasru": {
+            "gam": "Dashela",
+            "sakh": "Ghaghor",
+            "extra": "Devraj Gaful"
+        }
+    },
+    {
+        "name": "Lilabhai Vahjibhai",
+        "father": "Vahji Bhai",
+        "mother": "Ratan Ben",
+        "wife": "Mena Ben",
+        "sons": [
+            {
+                "name": "Baldev Bhai",
+                "children": [
+                    {
+                        "name": "Harsh Bhai"
+                    },
+                    {
+                        "name": "Nirav Bhai"
+                    }
+                ]
+            },
+            {
+                "name": "Raju Bhai",
+                "children": [
+                    {
+                        "name": "Vedant Bhai"
+                    },
+                    {
+                        "name": "Henisha Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Shanta Ben",
+                "village": "Shiyor",
+                "children": []
+            },
+            {
+                "name": "Kali Ben",
+                "village": "Balasar",
+                "children": []
+            },
+            {
+                "name": "Babu Ben",
+                "village": "Palodar",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Karjesan",
+            "sakh": "Luni",
+            "extra": "Leba Vrva"
+        },
+        "sasru": {
+            "gam": "Bhoyan",
+            "sakh": "Garsor",
+            "extra": "Baba Ganesh"
+        }
+    },
+    {
+        "name": "Baldevbhai Lilabhai",
+        "father": "Lila Bhai",
+        "mother": "Mena Ben",
+        "wife": "Isha Ben",
+        "sons": [
+            {
+                "name": "Harsh Bhai",
+                "children": []
+            },
+            {
+                "name": "Nirav Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Shivani Ben",
+                "village": "Vayna",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bhoyan",
+            "sakh": "Garsor",
+            "extra": "Baba Ganesh"
+        },
+        "sasru": {
+            "gam": "Kontiya",
+            "sakh": "Aal",
+            "extra": "Gaful Gova"
+        }
+    },
+    {
+        "name": "Niravbhai Baldevbhai",
+        "father": "Baldev Bhai",
+        "mother": "Isha Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Kontiya",
+            "sakh": "Aal",
+            "extra": "Gaful Gova"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Rajubhai Lilabhai",
+        "father": "Lila Bhai",
+        "mother": "Mena Ben",
+        "wife": "Amba Ben",
+        "sons": [
+            {
+                "name": "Vedant Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Henisha Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bhoyan",
+            "sakh": "Garsor",
+            "extra": "Baba Ganesh"
+        },
+        "sasru": {
+            "gam": "Bapiyara",
+            "sakh": "Nogoh",
+            "extra": "Ishwar Kalyan"
+        }
+    },
+    {
+        "name": "Vedantbhai Rajubhai",
+        "father": "Raju Bhai",
+        "mother": "Amba Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Bapiyara",
+            "sakh": "Nogoh",
+            "extra": "Ishwar Kalyan"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Nathabhai Chhaganbhai",
+        "father": "Chhagan Bhai",
+        "mother": "",
+        "wife": "Rukhi Ben",
+        "sons": [
+            {
+                "name": "Hira Bhai",
+                "children": [
+                    {
+                        "name": "Devraj Bhai"
+                    },
+                    {
+                        "name": "Asha Ben"
+                    },
+                    {
+                        "name": "Bhuri Ben"
+                    },
+                    {
+                        "name": "Mona Ben"
+                    }
+                ]
+            },
+            {
+                "name": "Ranchhod Bhai",
+                "children": [
+                    {
+                        "name": "Ajay Bhai"
+                    },
+                    {
+                        "name": "Pooja Ben"
+                    },
+                    {
+                        "name": "Nilam Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Kuver Ben",
+                "village": "Karoli",
+                "children": []
+            },
+            {
+                "name": "Mali Ben",
+                "village": "Pariyot",
+                "children": []
+            },
+            {
+                "name": "Sita Ben",
+                "village": "Sardhav",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Vayna",
+            "sakh": "Moydav",
+            "extra": "Nagji"
+        },
+        "sasru": {
+            "gam": "Sarsavdi",
+            "sakh": "Katana",
+            "extra": "Bhikha Gova"
+        }
+    },
+    {
+        "name": "Ranchhodbhai Nathabhai",
+        "father": "Natha Bhai",
+        "mother": "Rukhi Ben",
+        "wife": "Ladchi Ben",
+        "sons": [
+            {
+                "name": "Ajay Bhai",
+                "children": [
+                    {
+                        "name": "Jayval Bhai"
+                    },
+                    {
+                        "name": "Krishika Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Pooja Ben",
+                "village": "",
+                "children": []
+            },
+            {
+                "name": "Nilam Ben",
+                "village": "Jethalaj",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Sarsavdi",
+            "sakh": "Khatana",
+            "extra": "Bhikha Gova"
+        },
+        "sasru": {
+            "gam": "Thadoj",
+            "sakh": "Ghaghor",
+            "extra": "Amarat Dharmshi"
+        }
+    },
+    {
+        "name": "Ajaybhai Ranchhodbhai",
+        "father": "Ranchhod Bhai",
+        "mother": "Ladchi Ben",
+        "wife": "Payal Ben",
+        "sons": [
+            {
+                "name": "Jayval Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Krishika Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Thadoj",
+            "sakh": "Ghaghor",
+            "extra": "Malji Madha"
+        },
+        "sasru": {
+            "gam": "Jethalaj",
+            "sakh": "Garsor",
+            "extra": "Ishwar Rama"
+        }
+    },
+    {
+        "name": "Jayvalbhai Ajaybhai",
+        "father": "Ajay Bhai",
+        "mother": "Payal Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Jethalaj",
+            "sakh": "Garsor",
+            "extra": "Ishwar Rama"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Hirabhai Nathabhai",
+        "father": "Natha Bhai",
+        "mother": "Rukhi Ben",
+        "wife": "Ladchi Ben",
+        "sons": [
+            {
+                "name": "Devraj Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Asha Ben",
+                "village": "",
+                "children": []
+            },
+            {
+                "name": "Bhuri Ben",
+                "village": "Karsanpura",
+                "children": []
+            },
+            {
+                "name": "Mona Ben",
+                "village": "Balsasan",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Sarsavdi",
+            "sakh": "Khatana",
+            "extra": "Bhikha Gova"
+        },
+        "sasru": {
+            "gam": "Ghateshna",
+            "sakh": "Aal",
+            "extra": "Jayram Gaga"
+        }
+    },
+    {
+        "name": "Devrajbhai Hirabhai",
+        "father": "Hira Bhai",
+        "mother": "Ladchi Ben",
+        "wife": "Viral Ben",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Ghateshna",
+            "sakh": "Aal",
+            "extra": "Jayram Gaga"
+        },
+        "sasru": {
+            "gam": "KarsanPura",
+            "sakh": "Motan",
+            "extra": "Nagji"
+        }
+    },
+    {
+        "name": "Lakshmanbhai Chhaganbhai",
+        "father": "Chhagan Bhai",
+        "mother": "",
+        "wife": "Jva Ben",
+        "sons": [
+            {
+                "name": "Amarat Bhai",
+                "children": [
+                    {
+                        "name": "Rutvik Bhai"
+                    },
+                    {
+                        "name": "Jagruti Ben"
+                    }
+                ]
+            },
+            {
+                "name": "Ishwar Bhai",
+                "children": [
+                    {
+                        "name": "Jay Bhai"
+                    },
+                    {
+                        "name": "Vijay Bhai"
+                    },
+                    {
+                        "name": "Shruti Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Shati Ben",
+                "village": "Aghar",
+                "children": []
+            },
+            {
+                "name": "Sita Ben",
+                "village": "Kanjri",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Vayna",
+            "sakh": "Moydav",
+            "extra": "Nagji Bhai"
+        },
+        "sasru": {
+            "gam": "Kaligam",
+            "sakh": "Makona",
+            "extra": "Gaful Baba"
+        }
+    },
+    {
+        "name": "Amaratbhai Laxmanbhai",
+        "father": "Laxman Bhai",
+        "mother": "Jva Ben",
+        "wife": "Gita Ben",
+        "sons": [
+            {
+                "name": "Rutvik Bhai",
+                "children": [
+                    {
+                        "name": "Kevi Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Jagruti Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Kaligam",
+            "sakh": "Makona",
+            "extra": "Gaful Baba"
+        },
+        "sasru": {
+            "gam": "Chuninpura",
+            "sakh": "Ghabhlya",
+            "extra": "Amarat Dhamshi"
+        }
+    },
+    {
+        "name": "Rutvikbhai Amaratbhai",
+        "father": "Amarat Bhai",
+        "mother": "Laxshmi Ben",
+        "wife": "Kinjal Ben",
+        "sons": [],
+        "daughters": [
+            {
+                "name": "Kevi Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Dethri",
+            "sakh": "Bhubhriya",
+            "extra": "Ratna Rama"
+        },
+        "sasru": {
+            "gam": "Piyoj",
+            "sakh": "Luni",
+            "extra": "Babu Raghnath"
+        }
+    },
+    {
+        "name": "Ishwarbhai Laxmanbhai",
+        "father": "Laxman Bhai",
+        "mother": "Jva Ben",
+        "wife": "Amba Ben",
+        "sons": [
+            {
+                "name": "Jay Bhai",
+                "children": []
+            },
+            {
+                "name": "Vijay Bhai",
+                "children": [
+                    {
+                        "name": "Sanvi Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Shruti Ben",
+                "village": "Piyoj",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Kaligam",
+            "sakh": "Makona",
+            "extra": "Gaful Baba"
+        },
+        "sasru": {
+            "gam": "Kointiya",
+            "sakh": "Nogoh",
+            "extra": "Bhikha Mafa"
+        }
+    },
+    {
+        "name": "Jaybhai Ishwarbhai",
+        "father": "Ishwar Bhai",
+        "mother": "Amba Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Kointiya",
+            "sakh": "Nogoh",
+            "extra": "Bhikha Mafa"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Vijaybhai Ishwarbhai",
+        "father": "Ishwar Bhai",
+        "mother": "Amba Ben",
+        "wife": "Kajal Ben",
+        "sons": [],
+        "daughters": [
+            {
+                "name": "Sanvi Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Kointiya",
+            "sakh": "Nogoh",
+            "extra": "Bhikha Mafa"
+        },
+        "sasru": {
+            "gam": "Korat",
+            "sakh": "Motan",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Kalabhia Bhagvanbhai",
+        "father": "Bhagvan Bhai",
+        "mother": "Jethi Ben",
+        "wife": "Kuver Ben",
+        "sons": [
+            {
+                "name": "Sahar Bhai",
+                "children": [
+                    {
+                        "name": "Hiral Ben"
+                    }
+                ]
+            },
+            {
+                "name": "Vishnu Bhai",
+                "children": [
+                    {
+                        "name": "Yash Bhai"
+                    },
+                    {
+                        "name": "Monal Ben"
+                    },
+                    {
+                        "name": "Deval Ben"
+                    }
+                ]
+            },
+            {
+                "name": "Vikram Bhai",
+                "children": [
+                    {
+                        "name": "Arayan Bhai"
+                    },
+                    {
+                        "name": "Kavya Ben"
+                    },
+                    {
+                        "name": "Astha Ben"
+                    }
+                ]
+            },
+            {
+                "name": "Babu Bhai",
+                "children": [
+                    {
+                        "name": "Vansh Bhai"
+                    },
+                    {
+                        "name": "Dhara Ben"
+                    }
+                ]
+            },
+            {
+                "name": "Kanji Bhai",
+                "children": [
+                    {
+                        "name": "Om Bhai"
+                    },
+                    {
+                        "name": "Pari Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Nita Ben",
+                "village": "Karsanpura",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bhakoda",
+            "sakh": "Azaana",
+            "extra": "Kala Vasi"
+        },
+        "sasru": {
+            "gam": "Nadon",
+            "sakh": "Ghabhlya",
+            "extra": "Modan"
+        }
+    },
+    {
+        "name": "Saharbhai Kalabhia",
+        "father": "Kala Bhai",
+        "mother": "Kuber Ben",
+        "wife": "Isha Ben",
+        "sons": [],
+        "daughters": [
+            {
+                "name": "Hiral Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Nadon",
+            "sakh": "Ghabhlya",
+            "extra": "Modan Bhai"
+        },
+        "sasru": {
+            "gam": "Karjesan",
+            "sakh": "Luni",
+            "extra": "Bhikha Abha"
+        }
+    },
+    {
+        "name": "Vishanubhai Kalabhia",
+        "father": "Kala Bhai",
+        "mother": "Kuber Ben",
+        "wife": "Geeta Ben",
+        "sons": [
+            {
+                "name": "Yash Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Monal Ben",
+                "village": "Mokasan",
+                "children": []
+            },
+            {
+                "name": "Deval Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Nadon",
+            "sakh": "Ghabhlya",
+            "extra": "Modan Bhai"
+        },
+        "sasru": {
+            "gam": "Huroj",
+            "sakh": "Nogoh",
+            "extra": "Kala Saratn"
+        }
+    },
+    {
+        "name": "Yashbhai Vishanubhai",
+        "father": "Vishnu Bhai",
+        "mother": "Geeta Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Huroj",
+            "sakh": "Nogoh",
+            "extra": "Kala Saratn"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Vikrambhai Kalabhia",
+        "father": "Kala Bhai",
+        "mother": "Kuber Ben",
+        "wife": "Jyoshna Ben",
+        "sons": [
+            {
+                "name": "Arayan Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Kavya Ben",
+                "village": "",
+                "children": []
+            },
+            {
+                "name": "Astha Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Nadon",
+            "sakh": "Ghabhlya",
+            "extra": "Modan Bhai"
+        },
+        "sasru": {
+            "gam": "Julasan",
+            "sakh": "Makana",
+            "extra": "Kanu Gova"
+        }
+    },
+    {
+        "name": "Aryanbhai Vikrambhai",
+        "father": "Vikram Bhai",
+        "mother": "Jyoshna Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Julasan",
+            "sakh": "Makwana",
+            "extra": "Kanu Gova"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Babubhai Kalabhia",
+        "father": "Kala Bhai",
+        "mother": "Kuber Ben",
+        "wife": "Chetna Ben",
+        "sons": [
+            {
+                "name": "Vansh Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Dhara Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Nadon",
+            "sakh": "Ghabhlya",
+            "extra": "Modan Bhai"
+        },
+        "sasru": {
+            "gam": "Karsanpura(Chuvar)",
+            "sakh": "Makwana",
+            "extra": "Ranchhod Lakshman"
+        }
+    },
+    {
+        "name": "Vanshbhai Babubhai",
+        "father": "Babu Bhai",
+        "mother": "Chetna Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Karsanpura(Chuvar)",
+            "sakh": "Makwana",
+            "extra": "Ranchhod Lakshman"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Kanjibhai Kalabhia",
+        "father": "Kala Bhai",
+        "mother": "Kuber Ben",
+        "wife": "Bhavu Ben",
+        "sons": [
+            {
+                "name": "Om Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Pari Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Nadon",
+            "sakh": "Ghabhlya",
+            "extra": "Modan Bhai"
+        },
+        "sasru": {
+            "gam": "Ambaipura",
+            "sakh": "Hathod",
+            "extra": "Lila Hira"
+        }
+    },
+    {
+        "name": "Oambhai Kanjibhai",
+        "father": "Kanji Bhai",
+        "mother": "Bhavu Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Ambaipura",
+            "sakh": "Hathod",
+            "extra": "Lila Hira"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Mohanbhai Bhagvanbhai",
+        "father": "Bhagvan Bhai",
+        "mother": "Jethi Ben",
+        "wife": "Isha Ben",
+        "sons": [
+            {
+                "name": "Lala Bhai",
+                "children": [
+                    {
+                        "name": "Arav Bhai"
+                    },
+                    {
+                        "name": "Vasu Bhai"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Bhikhi Ben",
+                "village": "Chariyara",
+                "children": []
+            },
+            {
+                "name": "Amar Ben",
+                "village": "Pali",
+                "children": []
+            },
+            {
+                "name": "Kanta Ben",
+                "village": "Madresana",
+                "children": []
+            },
+            {
+                "name": "Amba Ben",
+                "village": "Karsanpura",
+                "children": []
+            },
+            {
+                "name": "Rekha Ben",
+                "village": "Ukedi",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bhakoda",
+            "sakh": "Nogoh",
+            "extra": "Kala Vasi"
+        },
+        "sasru": {
+            "gam": "Thadoj",
+            "sakh": "Ghaghor",
+            "extra": "Vaghu Bhai"
+        }
+    },
+    {
+        "name": "Lalabhai Mohanbhai",
+        "father": "Mohan Bhai",
+        "mother": "Isha Ben",
+        "wife": "Sakar Ben",
+        "sons": [
+            {
+                "name": "Arav Bhai",
+                "children": []
+            },
+            {
+                "name": "Vasu Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [],
+        "mosal": {
+            "gam": "Thadoj",
+            "sakh": "Ghoghor",
+            "extra": "Vaghu Bhai"
+        },
+        "sasru": {
+            "gam": "Dashela",
+            "sakh": "Ghabhlya",
+            "extra": "Moti Bhai"
+        }
+    },
+    {
+        "name": "Raymolbhai Bhagvanbhai",
+        "father": "Bhagvan Bhai",
+        "mother": "Jethi Ben",
+        "wife": "Rukhi Ben",
+        "sons": [
+            {
+                "name": "Bharat Bhai",
+                "children": [
+                    {
+                        "name": "Monil Bhai"
+                    },
+                    {
+                        "name": "Misha Ben"
+                    }
+                ]
+            },
+            {
+                "name": "Vijay Bhai",
+                "children": [
+                    {
+                        "name": "Jayraj Bhai"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Shhilpa Ben",
+                "village": "Telayi",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bhakoda",
+            "sakh": "Nogoh",
+            "extra": "Kala Vasi"
+        },
+        "sasru": {
+            "gam": "Gamanpura",
+            "sakh": "Puslya",
+            "extra": "Ishwar Bhai"
+        }
+    },
+    {
+        "name": "Bharatbhai Raymolbhai",
+        "father": "Raymol Bhai",
+        "mother": "Rukhi Ben",
+        "wife": "Bhavna Ben",
+        "sons": [
+            {
+                "name": "Monil Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Misha Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Gamanpura",
+            "sakh": "Pushlya",
+            "extra": "Ishwar Bhai"
+        },
+        "sasru": {
+            "gam": "Madena",
+            "sakh": "Kayd",
+            "extra": "Goda"
+        }
+    },
+    {
+        "name": "Monilbhai BhartBhai",
+        "father": "Bhart Bhai",
+        "mother": "Bhavna Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Madena",
+            "sakh": "Kaid",
+            "extra": "Goda Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Vijaybhai Raymolbhai",
+        "father": "Raymol Bhai",
+        "mother": "Rukhi Ben",
+        "wife": "Asha Ben",
+        "sons": [
+            {
+                "name": "Jayraj Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [],
+        "mosal": {
+            "gam": "Gamanpura",
+            "sakh": "Pushlya",
+            "extra": "Ishwar Bhai"
+        },
+        "sasru": {
+            "gam": "Sertha",
+            "sakh": "Makwana",
+            "extra": "Shadev Bhai"
+        }
+    },
+    {
+        "name": "Jayrajbhai VijayBhai",
+        "father": "Vijay Bhai",
+        "mother": "Asha Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Sertha",
+            "sakh": "Makwana",
+            "extra": "Shadev Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Ramjibhai Bhagvanbhai",
+        "father": "Bhagvan Bhai",
+        "mother": "Jethi Ben",
+        "wife": "Lakshmi Ben",
+        "sons": [
+            {
+                "name": "Sanjay Bhai",
+                "children": [
+                    {
+                        "name": "Daksh Bhai"
+                    },
+                    {
+                        "name": "Jaydev Bhai"
+                    },
+                    {
+                        "name": "Devras Bhai"
+                    }
+                ]
+            },
+            {
+                "name": "Nikul Bhai",
+                "children": [
+                    {
+                        "name": "Arayan Bhai"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Sejal Ben",
+                "village": "Nasmed",
+                "children": []
+            },
+            {
+                "name": "Sonal Ben",
+                "village": "Adisnanpara",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bhakoda",
+            "sakh": "Nogoh",
+            "extra": "Kala Vasi"
+        },
+        "sasru": {
+            "gam": "Chariyara",
+            "sakh": "Aal",
+            "extra": "Nagji Bhai"
+        }
+    },
+    {
+        "name": "Sanjaybhai Ramjibhai",
+        "father": "Ramji Bhai",
+        "mother": "Lakshmi Ben",
+        "wife": "Anu Ben",
+        "sons": [
+            {
+                "name": "Daksh Bhai",
+                "children": []
+            },
+            {
+                "name": "Jaydev Bhai",
+                "children": []
+            },
+            {
+                "name": "Devras Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [],
+        "mosal": {
+            "gam": "Chariyara",
+            "sakh": "Aal",
+            "extra": "Nagji Bhai"
+        },
+        "sasru": {
+            "gam": "Dyan",
+            "sakh": "Khatana",
+            "extra": "Nagji Bhai"
+        }
+    },
+    {
+        "name": "Dakshbhai Sanjaybhai",
+        "father": "Sanjay Bhai",
+        "mother": "Anu Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Dyan",
+            "sakh": "Khtana",
+            "extra": "Nagji Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Jaydevbhai Sanjaybhai",
+        "father": "Sanjay Bhai",
+        "mother": "Anu Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Dyan",
+            "sakh": "Khtana",
+            "extra": "Nagji Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Devrasbhai Sanjaybhai",
+        "father": "Sanjay Bhai",
+        "mother": "Anu Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Dyan",
+            "sakh": "Khtana",
+            "extra": "Nagji Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Nikulbhai Ramjibhai",
+        "father": "Ramji Bhai",
+        "mother": "Lakshmi Ben",
+        "wife": "Nehal Ben",
+        "sons": [
+            {
+                "name": "Arayan Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [],
+        "mosal": {
+            "gam": "Chariyara",
+            "sakh": "Aal",
+            "extra": "Nagji Bhai"
+        },
+        "sasru": {
+            "gam": "Jetpura",
+            "sakh": "Kola",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Aryanbhai Nikulbhai",
+        "father": "Nikul Bhai",
+        "mother": "Nehal Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Jetpura",
+            "sakh": "Kola",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Amaratbhai Maljibhai",
+        "father": "Malji Bhai",
+        "mother": "Takhi Ben",
+        "wife": "Mena Ben",
+        "sons": [
+            {
+                "name": "Devraj Bhai",
+                "children": []
+            },
+            {
+                "name": "Kalpesh Bhai",
+                "children": [
+                    {
+                        "name": "Rudra Bhai"
+                    }
+                ]
+            },
+            {
+                "name": "Paresh Bhai",
+                "children": [
+                    {
+                        "name": "Nill Bhai"
+                    }
+                ]
+            },
+            {
+                "name": "Manu Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [],
+        "mosal": {
+            "gam": "Karjesan",
+            "sakh": "Luni",
+            "extra": "Ranchhod Bhikha"
+        },
+        "sasru": {
+            "gam": "Staral",
+            "sakh": "Charkta",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Devrajbhai Amaratbhai",
+        "father": "Amarat Bhai",
+        "mother": "Mena Ben",
+        "wife": "Hina Ben",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Staral",
+            "sakh": "Charkta",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "Matachadasana",
+            "sakh": "Ghabhlya",
+            "extra": "Ranchhod Bhai"
+        }
+    },
+    {
+        "name": "Kalpeshbhai Amaratbhai",
+        "father": "Amarat Bhai",
+        "mother": "Mena Ben",
+        "wife": "Tini Ben",
+        "sons": [
+            {
+                "name": "Rudra Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [],
+        "mosal": {
+            "gam": "Staral",
+            "sakh": "Charkta",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "Pariyot",
+            "sakh": "Ghoghoir",
+            "extra": "Sayji Bhai"
+        }
+    },
+    {
+        "name": "Rudrabhai Kalpeshbhai",
+        "father": "Kalpesh Bhai",
+        "mother": "Tini Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Pariyot",
+            "sakh": "Ghoghoir",
+            "extra": "Sayji Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Pareshbhai Amaratbhai",
+        "father": "Amarat Bhai",
+        "mother": "Mena Ben",
+        "wife": "Bhavna Ben",
+        "sons": [
+            {
+                "name": "Nill Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [],
+        "mosal": {
+            "gam": "Staral",
+            "sakh": "Charkta",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "Kolad",
+            "sakh": "Bhatchyaa",
+            "extra": "Somo Bhai"
+        }
+    },
+    {
+        "name": "Nillbhai Pareshbhai",
+        "father": "Paresh Bhai",
+        "mother": "Bhavana Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Kolad",
+            "sakh": "Bhatchyaa",
+            "extra": "Somo Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Manubhai Amaratbhai",
+        "father": "Amarat Bhai",
+        "mother": "Mena Ben",
+        "wife": "Rekha Ben",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Staral",
+            "sakh": "Charkta",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "Suvada",
+            "sakh": "Balya",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Kanubhai Jeshangbhai",
+        "father": "Jeshan Bhai",
+        "mother": "Rambayi Ben",
+        "wife": "Kari Ben",
+        "sons": [
+            {
+                "name": "Dwarkesh Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Nikita Ben",
+                "village": "Bapiyara",
+                "children": []
+            },
+            {
+                "name": "Ayushi Ben",
+                "village": "Mena",
+                "children": []
+            },
+            {
+                "name": "Aneri Ben",
+                "village": "Karsanpura",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bavru",
+            "sakh": "Ghabhlya",
+            "extra": "Baldev Vasi"
+        },
+        "sasru": {
+            "gam": "Kolad",
+            "sakh": "Bhatchyaa",
+            "extra": "Murji Bhai"
+        }
+    },
+    {
+        "name": "Dwarkeshbhai Kanubhai",
+        "father": "Kanu Bhai",
+        "mother": "Kari Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Kolad",
+            "sakh": "Bhatchyaa",
+            "extra": "Murji Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Kanjibhai Sayjibhai",
+        "father": "Sayji Bhai",
+        "mother": "Jadi Ben",
+        "wife": "Dev Ben",
+        "sons": [
+            {
+                "name": "Nagji Bhai",
+                "children": []
+            },
+            {
+                "name": "Jigar Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Hetal Ben",
+                "village": "Ghatesna",
+                "children": []
+            },
+            {
+                "name": "Sonal Ben",
+                "village": "Sadra",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Uvarshad",
+            "sakh": "Charmta",
+            "extra": "Hoka Odhar"
+        },
+        "sasru": {
+            "gam": "Jetpura",
+            "sakh": "Ajana",
+            "extra": "Babar Bhala"
+        }
+    },
+    {
+        "name": "Nagjibhai Kanjibhai",
+        "father": "Kanji Bhai",
+        "mother": "Dev Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Jetpura",
+            "sakh": "Azzana",
+            "extra": "Navghan Babar"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Jigarbhai Kanjibhai",
+        "father": "Kanji Bhai",
+        "mother": "Dev Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Jetpura",
+            "sakh": "Azzana",
+            "extra": "Navghan Babar"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Gafulbhai Somabhai",
+        "father": "Soma Bhai",
+        "mother": "Jadi Ben",
+        "wife": "Amthi Ben",
+        "sons": [
+            {
+                "name": "Ajay Bhai",
+                "children": []
+            },
+            {
+                "name": "Raju Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Sonal Ben",
+                "village": "Huroj",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Koyda",
+            "sakh": "Ghambhlya",
+            "extra": "Kamsi Malji"
+        },
+        "sasru": {
+            "gam": "Chariyara",
+            "sakh": "Aal",
+            "extra": "Dharmshi Bhai"
+        }
+    },
+    {
+        "name": "Ajaybhai Gafulbhai",
+        "father": "Gaful Bhai",
+        "mother": "Amthi Ben",
+        "wife": "Bhavu Ben",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Chariyara",
+            "sakh": "Aal",
+            "extra": "Dharmshi Bhai"
+        },
+        "sasru": {
+            "gam": "Gamanpura",
+            "sakh": "Parmar",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Rajubhai Gafulbhai",
+        "father": "Gaful Bhai",
+        "mother": "Amthi Ben",
+        "wife": "Bhoomi Ben",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Chariyara",
+            "sakh": "Aal",
+            "extra": "Dharmshi Bhai"
+        },
+        "sasru": {
+            "gam": "Kontiya",
+            "sakh": "Nogoh",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Raghunathbhai Somabhai",
+        "father": "Soma Bhai",
+        "mother": "Jadi Ben",
+        "wife": "Ladchi Ben",
+        "sons": [
+            {
+                "name": "Vishnu Bhai",
+                "children": [
+                    {
+                        "name": "Het Bhai"
+                    },
+                    {
+                        "name": "Jayvik Bhai"
+                    },
+                    {
+                        "name": "Jill Ben"
+                    }
+                ]
+            },
+            {
+                "name": "Sanjay Bhai",
+                "children": []
+            },
+            {
+                "name": "Vijay Bhai",
+                "children": [
+                    {
+                        "name": "Angle Ben"
+                    },
+                    {
+                        "name": "Saniya Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Krishna Ben",
+                "village": "Loar",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Koyda",
+            "sakh": "Ghambhlya",
+            "extra": "Kamsi Malji"
+        },
+        "sasru": {
+            "gam": "Bhoyan",
+            "sakh": "Charmta",
+            "extra": "Raymol Ram"
+        }
+    },
+    {
+        "name": "Vishanubhai Raghunathbhai",
+        "father": "Raghunath Bhai",
+        "mother": "Ladchi Ben",
+        "wife": "Asha Ben",
+        "sons": [
+            {
+                "name": "Het Bhai",
+                "children": []
+            },
+            {
+                "name": "Jayvik Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Jill Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bhoyan",
+            "sakh": "Charmta",
+            "extra": "Raymol Ram"
+        },
+        "sasru": {
+            "gam": "Rampura",
+            "sakh": "Luni",
+            "extra": "Baldev Mehur"
+        }
+    },
+    {
+        "name": "Sanjaybhai Raghunathbhai",
+        "father": "Raghunath Bhai",
+        "mother": "Ladchi Ben",
+        "wife": "Komal Ben",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Bhoyan",
+            "sakh": "Charmta",
+            "extra": "Raymol Ram"
+        },
+        "sasru": {
+            "gam": "Loar",
+            "sakh": "Havdhariya",
+            "extra": "Nagji Lila"
+        }
+    },
+    {
+        "name": "Vijaybhai Raghunathbhai",
+        "father": "Raghunath Bhai",
+        "mother": "Ladchi Ben",
+        "wife": "Hetal Ben",
+        "sons": [],
+        "daughters": [
+            {
+                "name": "Angle Ben",
+                "village": "",
+                "children": []
+            },
+            {
+                "name": "Saniya Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bhoyan",
+            "sakh": "Charmta",
+            "extra": "Raymol Ram"
+        },
+        "sasru": {
+            "gam": "Kanjri",
+            "sakh": "Bhumbhariya",
+            "extra": "Lala Jayram"
+        }
+    },
+    {
+        "name": "Jayrambhai Somabhai",
+        "father": "Soma Bhai",
+        "mother": "Jadi Ben",
+        "wife": "Geeta Ben",
+        "sons": [
+            {
+                "name": "Chetan Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Bhoomi Ben",
+                "village": "Vayna",
+                "children": []
+            },
+            {
+                "name": "Hiral Ben",
+                "village": "Sedpa",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Koyda",
+            "sakh": "Ghambhlya",
+            "extra": "Kamsi Malji"
+        },
+        "sasru": {
+            "gam": "Hayij",
+            "sakh": "Baar",
+            "extra": "Babaa Bhai"
+        }
+    },
+    {
+        "name": "Chetanbhai Jayrambhai",
+        "father": "Jayram Bhai",
+        "mother": "Geeta Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Hayij",
+            "sakh": "Baar",
+            "extra": "Babaa Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Ramjibhai Khodabhai",
+        "father": "Khoda Bhai",
+        "mother": "Hira Ben",
+        "wife": "Jadi Ben",
+        "sons": [
+            {
+                "name": "Ishwar Bhai",
+                "children": [
+                    {
+                        "name": "Chirag Bhai"
+                    },
+                    {
+                        "name": "Sonal Ben"
+                    },
+                    {
+                        "name": "Sejal Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Laxmi Ben",
+                "village": "Adla",
+                "children": []
+            },
+            {
+                "name": "Jhali Ben",
+                "village": "Kanjri",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Nadisara",
+            "sakh": "Khatana",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "Pali",
+            "sakh": "Makavana",
+            "extra": "Babu Tarja"
+        }
+    },
+    {
+        "name": "Ishwarbhai Ramjibhai",
+        "father": "Ramji Bhai",
+        "mother": "Jadi Ben",
+        "wife": "Dev Ben",
+        "sons": [
+            {
+                "name": "Chirag Bhai",
+                "children": [
+                    {
+                        "name": "Vihan Bhai"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Sonal Ben",
+                "village": "Bhalgam",
+                "children": []
+            },
+            {
+                "name": "Sejal Ben",
+                "village": "Nadon",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Pali",
+            "sakh": "Makavana",
+            "extra": "Babu Tarja"
+        },
+        "sasru": {
+            "gam": "Iyava",
+            "sakh": "Ghaghor",
+            "extra": "Roma Bhai"
+        }
+    },
+    {
+        "name": "Chiragbhai Ishwarbhai",
+        "father": "Ishwar Bhai",
+        "mother": "Dev Ben",
+        "wife": "Sejal Ben",
+        "sons": [
+            {
+                "name": "Vihan Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [],
+        "mosal": {
+            "gam": "Iyava",
+            "sakh": "Ghaghor",
+            "extra": "Roma Bhai"
+        },
+        "sasru": {
+            "gam": "Ambayipura",
+            "sakh": "Hathol",
+            "extra": "Lila Bhai"
+        }
+    },
+    {
+        "name": "Vihanbhai Chiragbhai",
+        "father": "Chirag Bhai",
+        "mother": "Sejal Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Ambayipura",
+            "sakh": "Hathol",
+            "extra": "Lila Bhai"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Khumabhai Khodabhai",
+        "father": "Khoda Bhai",
+        "mother": "Hira Ben",
+        "wife": "Jasi Ben",
+        "sons": [
+            {
+                "name": "Chunda Bhai",
+                "children": [
+                    {
+                        "name": "Dharmesh Bhai"
+                    },
+                    {
+                        "name": "Lala Bhai"
+                    },
+                    {
+                        "name": "Shilpa Ben"
+                    },
+                    {
+                        "name": "Shital Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Isha Ben",
+                "village": "Aedla",
+                "children": []
+            },
+            {
+                "name": "Geeta Ben",
+                "village": "Sajanpura",
+                "children": []
+            },
+            {
+                "name": "Santhi Ben",
+                "village": "Dantali",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Nadisara",
+            "sakh": "Khatana",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "Gota",
+            "sakh": "Gaghor",
+            "extra": "Ranchhod Rama"
+        }
+    },
+    {
+        "name": "Chundabhai Khumabhai",
+        "father": "Khuma Bhai",
+        "mother": "Jasi Ben",
+        "wife": "Lali Ben",
+        "sons": [
+            {
+                "name": "Dharmesh Bhai",
+                "children": []
+            },
+            {
+                "name": "Lala Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Shilpa Ben",
+                "village": "Bavru",
+                "children": []
+            },
+            {
+                "name": "Shital Ben",
+                "village": "Dhanoj",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Gota",
+            "sakh": "Gaghor",
+            "extra": "Ranchhod Rama"
+        },
+        "sasru": {
+            "gam": "Nandasan",
+            "sakh": "Khambhlya",
+            "extra": "Malgi Hoka"
+        }
+    },
+    {
+        "name": "Dharmeshbhai Chundabhai",
+        "father": "Chunda Bhai",
+        "mother": "Lali Ben",
+        "wife": "Hina Ben",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Nandasan",
+            "sakh": "Khambhlya",
+            "extra": "Malgi Hoka"
+        },
+        "sasru": {
+            "gam": "Bavru",
+            "sakh": "Karotra",
+            "extra": "Nagji Bhai"
+        }
+    },
+    {
+        "name": "Lalabhai Chundabhai",
+        "father": "Chunda Bhai",
+        "mother": "Lali Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Nandasan",
+            "sakh": "Khambhlya",
+            "extra": "Malgi Hoka"
+        },
+        "sasru": {
+            "gam": "Dhanoj",
+            "sakh": "",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Chehorbhai Khodabhai",
+        "father": "Khoda Bhai",
+        "mother": "Hira Ben",
+        "wife": "Chehar Ben",
+        "sons": [
+            {
+                "name": "Kanu Bhai",
+                "children": [
+                    {
+                        "name": "Mehul Bhai"
+                    },
+                    {
+                        "name": "Ridhi Ben"
+                    }
+                ]
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Amba Ben",
+                "village": "Madresna",
+                "children": []
+            },
+            {
+                "name": "Geeta Ben",
+                "village": "Kolad",
+                "children": []
+            },
+            {
+                "name": "Neeta Ben",
+                "village": "Karsanpura",
+                "children": []
+            },
+            {
+                "name": "Amar Ben",
+                "village": "Ambayipura",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Nadisara",
+            "sakh": "Khatana",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "Bhavda",
+            "sakh": "Aal",
+            "extra": "Rama Shoka"
+        }
+    },
+    {
+        "name": "Kanubhai Chehorbhai",
+        "father": "Chehor Bhai",
+        "mother": "",
+        "wife": "",
+        "sons": [
+            {
+                "name": "Mehul Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Ridhi Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Bhavda",
+            "sakh": "Aal",
+            "extra": "Rama Hoka"
+        },
+        "sasru": {
+            "gam": "Kolad",
+            "sakh": "Bhatchiyaa",
+            "extra": "Amarat Ishwar"
+        }
+    },
+    {
+        "name": "Mehulbhai Kanubhai",
+        "father": "Kanu Bhai",
+        "mother": "Lasi Ben",
+        "wife": "Maya Ben",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Kolad",
+            "sakh": "Bhatchiyaa",
+            "extra": "Amarat Ishwar"
+        },
+        "sasru": {
+            "gam": "Nodotri",
+            "sakh": "Thethiya",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Ishwarbhai Bababhai",
+        "father": "Baba Bhai",
+        "mother": "Ganga Ben",
+        "wife": "Amba Ben",
+        "sons": [
+            {
+                "name": "Ravi Bhai",
+                "children": [
+                    {
+                        "name": "Arvi Ben"
+                    },
+                    {
+                        "name": "Bhavya Ben"
+                    }
+                ]
+            },
+            {
+                "name": "Bijal Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Sejal Ben",
+                "village": "Satral",
+                "children": []
+            },
+            {
+                "name": "Hetal Ben",
+                "village": "Maknaj",
+                "children": []
+            },
+            {
+                "name": "Kajal Ben",
+                "village": "Vayna",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Suvada",
+            "sakh": "Nogoh",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "Kolad",
+            "sakh": "Bhatchiyaa",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Ravibhai Ishwarbhai",
+        "father": "Ishwar Bhai",
+        "mother": "Amba Ben",
+        "wife": "Asha Ben",
+        "sons": [],
+        "daughters": [
+            {
+                "name": "Arvi Ben",
+                "village": "",
+                "children": []
+            },
+            {
+                "name": "Bhavya Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Kolad",
+            "sakh": "Bhatchiyaa",
+            "extra": "Ranjeet Bhai"
+        },
+        "sasru": {
+            "gam": "Karjesan",
+            "sakh": "Luni",
+            "extra": "Leba Varva"
+        }
+    },
+    {
+        "name": "Bijalbhai Ishwarbhai",
+        "father": "Ishwar Bhai",
+        "mother": "Amba Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Kolad",
+            "sakh": "Bhatchiyaa",
+            "extra": "Ranjeet Bhai"
+        },
+        "sasru": {
+            "gam": "Chariyara",
+            "sakh": "Aal",
+            "extra": ""
+        }
+    },
+    {
+        "name": "Ganeshbhai Maljibhai",
+        "father": "Malji Bhai",
+        "mother": "Mani Ben",
+        "wife": "Asha Ben",
+        "sons": [
+            {
+                "name": "Vivek Bhai",
+                "children": []
+            }
+        ],
+        "daughters": [
+            {
+                "name": "Deval Ben",
+                "village": "",
+                "children": []
+            }
+        ],
+        "mosal": {
+            "gam": "Dharava",
+            "sakh": "Ghaghor",
+            "extra": ""
+        },
+        "sasru": {
+            "gam": "Zulasan",
+            "sakh": "Makwana",
+            "extra": "Kanu Bhai"
+        }
+    },
+    {
+        "name": "Vivekbhai Ganeshbhai",
+        "father": "Ganesh Bhai",
+        "mother": "Asha Ben",
+        "wife": "",
+        "sons": [],
+        "daughters": [],
+        "mosal": {
+            "gam": "Zulasan",
+            "sakh": "Makwana",
+            "extra": "Kanu"
+        },
+        "sasru": {
+            "gam": "",
+            "sakh": "",
+            "extra": ""
+        }
+    }
+]
