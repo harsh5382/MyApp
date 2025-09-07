@@ -92,7 +92,7 @@ export default function ProfileScreen() {
               );
               if (childMember) {
                 router.push({
-                  pathname: "./profile",
+                  pathname: "/family/profile",
                   params: { memberName: child.name },
                 });
               }
@@ -147,7 +147,7 @@ export default function ProfileScreen() {
             style={globalStyles.editButton}
             onPress={() =>
               router.push({
-                pathname: "./edit-member",
+                pathname: "/family/edit-member",
                 params: {
                   memberId: "temp-id",
                   memberData: JSON.stringify(member),

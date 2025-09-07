@@ -33,7 +33,7 @@ export default function FamilyTreeScreen() {
     const member = familyMembers.find((m) => m.name === memberName);
     if (member) {
       router.push({
-        pathname: "./profile",
+        pathname: "/family/profile",
         params: { memberName: memberName },
       });
     }

@@ -31,7 +31,7 @@ export default function SearchScreen() {
 
   const navigateToProfile = (memberName: string) => {
     router.push({
-      pathname: "./profile",
+      pathname: "/family/profile",
       params: { memberName: memberName },
     });
   };
